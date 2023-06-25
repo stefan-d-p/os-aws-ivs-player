@@ -1,10 +1,10 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "amd",
+        "module": "AMD",
         "allowJs": false,
         "checkJs": false,
-        "outFile": "./dist/OutSystemsLib.js",
+        "outFile": "./dist/OutSystemsAWSIVSPlayer.js",
         "removeComments": true,
         "importHelpers": true,
         "alwaysStrict": true,
