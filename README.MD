@@ -1,1 +1,1 @@
-This is a template for creating OutSystems library components Javascript helpers.
+Support library for AWS Interactive Video Services Player Widget in OutSystems.
