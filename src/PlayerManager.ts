@@ -39,6 +39,26 @@ namespace AWS.IVS.PlayerManager {
         player.play();
     }
 
+    export function Pause(playerId: string) {
+        const player = GetPlayerById(playerId);
+        player.pause();
+    }
+
+    export function SetAutoplay(playerId: string, enabled: boolean) {
+        const player = GetPlayerById(playerId);
+        player.setAutoplay(enabled);
+    }
+
+    export function SetMuted(playerId: string, mute: boolean) {
+        const player = GetPlayerById(playerId);
+        player.setMuted(mute);
+    }
+
+    export function SetVolume(playerId: string, volume: number) {
+        const player = GetPlayerById(playerId);
+        player.setVolume(volume);
+    }
+
     export function GetActivePlayer(): Player {
         return activePlayer;
     }

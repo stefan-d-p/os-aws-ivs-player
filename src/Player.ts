@@ -46,5 +46,24 @@ namespace AWS.IVS.PlayerManager {
         public play() {
             this._mediaPlayer.play();
         }
+
+        /**
+         * Pauses a stream
+         */
+        public pause() {
+            this._mediaPlayer.pause();
+        }
+
+        public setVolume(volume: number) {
+            this._mediaPlayer.setVolume(volume);
+        }
+
+        public setMuted(mute: boolean) {
+            this._mediaPlayer.setMuted(mute);
+        }
+
+        public setAutoplay(enabled: boolean) {
+            this._mediaPlayer.setAutoplay(enabled);
+        }
     }
 }
